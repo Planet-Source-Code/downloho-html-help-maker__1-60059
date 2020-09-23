@@ -1,0 +1,8 @@
+l<html>
+ <head>
+  <title>HTML Help Maker - Template</title>
+ </head>
+<body>
+<%body%>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<htmlfilename>C:\WINDOWS\Desktop\icons\CozIcon Website\help\index.html</htmlfilename><prjfilename>C:\WINDOWS\Desktop\icons\CozIcon Website\help\cozicon.hhm</prjfilename><template><html>
+<head>
+ <title>CozIcon - Free Icon Editor [Help]</title>
+ <link rel="stylesheet" href="/styles.css" type="text/css">
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+<table width="100%"><tr bgcolor="#0000aa"><td>
+<table cellpading="1" cellspacing="1" width="100%"><tr bgcolor="#0000aa"><td>
+<img src="/images/top.jpg">
+</td></tr></table>
+
+<table cellpading="1" cellspacing="1" width="100%">
+ <tr bgcolor="white">
+  <td width="150" valign="top">
+<div class="navmenu">
+<li><a href="/index.php">Home</a></li>
+<li><a href="/index.php?view=screenshots">Screen Shots</a></li>
+<li><a href="/index.php?view=download">Download</a></li>
+<li><a href="/index.php?view=source">Source Code</a></li>
+<li><a href="/filters.php">Filters</a></li>
+<li><a href="/brushes.php">Custom Brushes</a></li>
+<li><a href="/plugins.php">Plugins</a></li>
+<li><a href="/comments.php">Comments</a></li>
+<li><a href="/help/">Help</a></li>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+  </td>
+  <td valign="top">
+<h2>CozIcon - Help</h2>
+
+	<%body%>
+
+  </td>
+ </tr>
+
+</td></tr></table>
+</body>
+</html></template><autoline>True</autoline><*split*>Drawing Lines and Shapes
+...Draw a Straight Line
+...Draw a Freeform Line
+...Draw an Eclipse or Circle
+...Draw a Rectangle or Square
+Putting Text in Icons
+Making Selections
+Filling an area
+Choosing Colors
+...Selecting Colors
+...Other Colors
+Transparency
+...Transparent Color
+...Erasing an area
+Layers
+...Selecting Layers
+...Moving Layers
+...Clearing Layers
+...Merging Layers
+Filters
+...Using Filters
+...Applying Filters
+...Creating Filters
+Plugins
+...Using Plugins
+...Creating Plugins
+Custom Brushes
+...Using Custom Brushes
+...Creating Custom Brushes
+Image Manipulation
+Opening Icons
+Saving Icons
+Other Tips & Tricks
+<*split*>Essential to any image editing software, these are the basic tools you'll need.
+
+Below you'll find more information.<*code*><ol>
+<li>In the toolbox, choose the line tool.
+<img src="images/toolbar_line_tool.gif">
+<li>To draw the line, drag the pointer.
+</ol>
+<ul>
+<li>Select an option below the toolbar for line thickness.
+<img src="images/toolbar_more_line.gif">
+</ul><*code*><ol>
+<li>In the toolbox, choose the pen tool.
+<img src="images/toolbar_pen_tool.gif">
+<li>To draw the line, drag the pointer.
+</ol>
+<ul>
+<li>Select [C] below the toolbar to load a custom brush.
+<img src="images/toolbar_more_pen.gif">
+</ul><*code*><ol>
+<li>In the toolbox, choose the eclipse tool.
+<img src="images/toolbar_eclipse_tool.gif">
+<li>Drag the pointer diagonally. 
+</ol>
+<ul>
+<li>Select an option below the toolbar for filled, filled outlined and gradient eclipses.
+<img src="images/toolbar_more_eclipse.gif">
+<li>You can draw a perfect circle by holding down SHIFT while you drag.
+</ul>
+<*code*><ol>
+<li>In the toolbox, choose the rectangle tool. 
+<img src="images/toolbar_rectangle_tool.gif">
+<li>Drag the pointer diagonally. 
+</ol>
+<ul>
+<li>Select an option below the toolbar for filled, filled outlined and gradient rectangles.
+<img src="images/toolbar_more_rectangle.gif">
+<li>You can draw a perfect square by holding down SHIFT while you drag.
+</ul>
+* Select [C] below the toolbar to load a custom brush.<*code*><ol>
+<li>In the toolbox, choose the text tool.
+<img src="images/toolbar_text_tool.gif">
+<li>On the text window Enter your text, choose your font and then alter the X and Y positions.
+<img src="images/text_window.gif">
+</ol><*code*><ol>
+<li>In the toolbox, choose the selection tool.
+<img src="images/toolbar_select_tool.gif">
+<li>To make a selection, drag the pointer.
+<li>Use menu Edit>Select All to select the entire icon.
+<img src="images/menu_edit.gif">
+</ol>
+
+* Select Another tool to automatically unselect and area.<*code*><ol>
+<li>In the toolbox, choose the bucket tool.
+<img src="images/toolbar_fill_tool.gif">
+<li>Move your mouse over the icon and click to fill that region.
+</ol><*code*>Below you'll find more information.<*code*>There are 4 ways to select a color for either left or right mouse button.
+<ol>
+<li>In the toolbox, choose the Color Select tool and click any region of the current icon being edited to choose that color.
+<img src="images/toolbar_color_tool.gif">
+<li>At the bottom there are several standard colors to choose from.
+<img src="images/color_select.gif">
+<li>On the left hand side of the screen there are 2 boxes representing the Left and Right mouse buttons, click either of those for more colors.
+<img src="images/mouse_colors.gif">
+<li>Once a color is selected you'll have the option to select a variant of that color at the bottom left of the window.
+<img src="images/color_varient.gif">
+</ol>
+<ul>
+<li>While selecting a color, in any of these windows, hold down your mouse button while dragging your pointer.
+<li>Click the double arrows above the mouse colors to swap them.
+</ul><*code*>The background of the Editing Space can be changed to suit your needs.
+
+Just click any unoccupied portion of the editing background and you'll be prompted for a new background color.
+
+It will be saved as the default color.<*code*>Transparency is a big part of icon editing and is fully supported by CozIcon.<*code*>There is a default transparent color and cannot be changed.
+
+You can select the transparent color by clicking the small box below the left/mouse color boxes.
+<img src="images/mouse_colors_trans.gif"><*code*>To erase an area <a href="#ch6sub1">select the transparent color</a> and simply <a href="#ch1sub0">draw</a> over any area.<*code*>You have 5 layers total at your disposal for editing advanced icons.
+<img src="images/layers.gif">
+The layer displays are located at the upper right hand side of the main window.
+<ul>
+<li>You can hide the Layers by clicking View>Layers menu.
+</ul><*code*><ol><li>Move your mouse over any layer and simply left click to select.
+</ol> <*code*><ol>
+<li>Once you've <a href="#ch7sub1">selected a layer</a> use the buttons above to move a layer up or down in the order.
+<img src="images/layers_move.gif">
+</ol><*code*><ol>
+<li>Once you've <a href="#ch7sub1">selected a layer</a> you may clear the layer by using this button above.
+<img src="images/layers_clear.gif">
+</ol><*code*><ol>
+<li>Once you've <a href="#ch7sub1">selected a layer</a> use the buttons above to merge a layer up/down or merge all layers to flatten the image.
+<img src="images/layers_merge.gif">
+<li>Once a layer is merged it can't be undone.
+</ol>
+
+* Merging layers allows you to free up an additional layer when no more editing is required.<*code*>Filters apply effects that manipulate the way an Icon is seen.<*code*><ol>
+<li>Click the Filters menu and simply choose a filter to apply.
+<img src="images/menu_filters.gif">
+</ol>
+<ul>
+<li>If all the filters are grayed out it just means that there is no open icon. The edit screen must be visible to apply filters.
+<li>If you have no filters or wish to obtain more <a href="http://cozicon.onlies.net/filters.php">click here</a>.
+</ul><*code*><ol>
+<li>Filters will be applied to the current working layer.
+<li>The icon will be rendered up to the current layer.
+</ol><*code*><ol>
+<li><a href="http://cozicon.onlies.net/filters.php?view=doc">Click here</a>.
+</ol><*code*>Plugins are custom applications for manipulating icons within CozIcon.
+<*code*><ol>
+<li>Click the Plugins menu and simply choose a plugin to run.
+<img src="images/menu_plugins.gif">
+</ol>
+<ul>
+<li>If all the plugins are grayed out it just means that there is no open icon. The edit screen must be visible to run plugins.
+<li>If you have no plugins or wish to obtain more <a href="http://cozicon.onlies.net/plugins.php">click here</a>.
+</ul><*code*><ol>
+<li><a href="http://cozicon.onlies.net/plugins.php?view=doc">Click here</a>.
+</ol><*code*>Custom brushes are created to draw a defined "brush" to the icon.<*code*><ol>
+<li>There are 2 types of Custom Brushes: Custom Pens (these are drawn when you click and drag your mouse) and Custom Boxes (these are only drawn when you select an area and release the mouse).
+<li>Custom Brushes can be loaded by choosing one from the Brush browser.
+<img src="images/brushes.gif">
+<li>You may also load a Custom Brush by selecting the <a href="#ch1sub2">pen</a> or <a href="#ch1sub4">rectangle</a> tools.
+</ol>
+<ul>
+<li>You can hide the Brush browser by clicking View>Brushes menu.
+</ul><*code*><ol>
+<li><a href="http://cozicon.onlies.net/brushes.php?view=doc">Click here</a>.
+</ol><*code*>You can access this section by clicking the Image menu.
+<img src="images/menu_image.gif">
+Within here you can:
+<ol>
+<li>Flip the icon Horizonatlly
+<li>Flip the icon Vertically
+<li>Rotate an Image:
+<ul>
+<li>After choosing this option you are asked to enter a degree 0 to 360.
+</ul>
+<li>Clicking 'Original' will reset the icon to it's original state.
+<li>Choosing 'Palette' will display the icons color palette up to 256 colors.
+</ol><*code*>CozIcon can load single and multiple Window's Icons up to 24 bit in color.
+<ol>
+<li>Click the File menu.
+<img src="images/menu_file.gif">
+<li>Select Open and choose an Icon on your computer.
+<ul>
+<li>If the icon contains a single icon then it will load and can be edited.
+<li>If it contains multiple icons you will be prompted to view them all.
+<li>If you choose 'No' then the first default icon within will be loaded.
+<li>Other wise you'll be prompted to choose which icons to load.
+<img src="images/multiple_icons.gif">
+<li>Check which you want to open and click 'Ok', clicking 'Cancel' will exit without loading any icons.
+</ol><*code*>CozIcon can saves 24 bit True Color Icons. It can also save the icon as a Bitmap and a special format for CozIcon preserving all the layers.
+<ol>
+<li>Click the File menu.
+<img src="images/menu_file.gif">
+<li>Choose 'Save' or 'Save As...'
+</ol>
+
+Another option available is 'Save All As...'
+
+This option will save all opened icons in a single icon file.<*code*><ul>
+<li>You can move a layer's postion by holding the control key [Ctrl] and then using the Arrow keys to navigate on the screen.
+<li>Pressing the 'd' key while editing will reset the mouse colors to Black and White.
+<li>You can load a test icon by clicking the Help>Test Icon menues.
+<li>You can not zoom 48x48 icons larger that 1000%
+</ul>
